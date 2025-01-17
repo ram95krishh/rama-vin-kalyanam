@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +34,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@3.8.6+sha512.a1c3a781c248a6d957eacd53f9b965663af89ef777982d7d9086af6de00cab8724cb75bade6b0cdfcaa04f63e20767fc435aade5489be976a5745d6ee03c7932"
 }
