@@ -18,11 +18,11 @@ function App() {
           <h3>Welcome to our wedding celebration!</h3>
           <p>Explore the delicious dishes served, the timings, what went into curating them, allergen info and a lot more...</p>
           <b>
-            <a href="https://www.instagram.com/explore/tags/StuckWithRama" target="_blank">
+            <a href="https://www.instagram.com/explore/tags/StuckWithRama" >
               #StuckWithRama
             </a>
             {'  '}
-            <a href="https://www.instagram.com/explore/tags/RamaVinKalyanam" target="_blank">
+            <a href="https://www.instagram.com/explore/tags/RamaVinKalyanam">
               #RamaVinKalyanam
             </a>
           </b>
