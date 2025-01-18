@@ -50,7 +50,7 @@ function App() {
       <main>
         <section id='menu-section' className='menu section'>
           <div className='title'>
-            <h2>Our Menu</h2>
+            <h2>The Banana Leaf Chronicles</h2>
             <div className='underline'></div>
           </div>
           <Categories selected={selectedCat} categories={categories} setCategory={setSelectedCat}></Categories>
