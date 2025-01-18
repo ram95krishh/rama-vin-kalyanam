@@ -3,7 +3,7 @@ import Menu from './Menu'
 import Categories from './Categories'
 import { menu, categories } from './data'
 
-const EVENT_MID_TIMESTAMP = 1737163800000 // JAN_20_0000_HRS // new Date('2025-01-20T07:00:00+05:30').getTime()
+const EVENT_MID_TIMESTAMP = 1737336600000 // JAN_20_0000_HRS // new Date('2025-01-20T07:00:00+05:30').getTime()
 
 function App() {
   const [allItems] = useState(menu)

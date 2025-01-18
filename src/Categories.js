@@ -14,6 +14,15 @@ const Categories = (props) => {
         {activeCategories.map(({ category, id }) => {
           return (
             <button
+              ref={(el) => {
+                if (category === selected) {
+                  el?.scrollIntoView({
+                    behavior: "smooth",
+                    block: "nearest",
+                    inline: "center",
+                  });
+                }
+              }}
               className={category === selected ? 'filter-btn-selected' : 'filter-btn'}
               type='button'
               key={id}
@@ -25,9 +34,9 @@ const Categories = (props) => {
         })}
       </div>
       <b id="category-desc">{selectedCategory?.desc}</b>
-      <div key={selectedCategory.id}>
-        <b id="category-timing-info">{selectedCategory.date}</b>
-        <b id="category-timing-info">{selectedCategory.timingInfo}</b>
+      <div id="category-timing-info" key={selectedCategory.id}>
+        <b className='category-timing-item'>{selectedCategory.date}</b>
+        <b className='category-timing-item'>{selectedCategory.timingInfo}</b>
       </div>
     </div>
   )

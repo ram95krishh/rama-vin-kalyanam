@@ -152,6 +152,14 @@ export const menu = [
     "desc": "Semiya payasam AKA vermicelli kheer is a delicious pudding made with vermicelli, sugar, ghee, milk, nuts and raisins."
   },
   {
+    "id:": 191,
+    "title": "Vanilla / Chocolate Ice Cream",
+    "category": "Dinner",
+    "allergens": ["Milk"],
+    "img": "./images/item-2nn.jpg",
+    "desc": "A classic dessert made with milk, sugar, cream and vanilla extract. Or a chocolate variant for the chocolate lovers. Pick either or both, what's stopping you? :D"
+  },
+  {
     "id": 20,
     "title": "Sweet Beda / Paan",
     "category": "Dinner",
@@ -241,12 +249,164 @@ export const menu = [
   },
   {
     "id": 31,
+    "title": "Jalebi",
+    "category": "Lunch",
+    "allergens": ['Gluten'],
+    "img": "./images/item-5a.jpg",
+    "desc": "Bright orange, spiral-shaped dessert made from flour batter that's fried and soaked in sugar syrup."
+  },
+  {
+    "id": 32,
+    "title": "Kasi Halwa",
+    "category": "Lunch",
+    "allergens": ['Nuts'],
+    "img": "./images/item-5b.jpg",
+    "desc": "Also called Dumroot Halwa, this is a unique, tasty and rich halwa made from ash gourd or white pumpkin, sugar, nuts, ghee, raisins and flavored with saffron."
+  },
+  {
+    "id": 33,
+    "title": "Vendakka thayir pachdi",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5c.jpg",
+    "desc": "a simple but delicious raita made with curd spices and ladies finger or bhindi."
+  },
+  {
+    "id": 34,
+    "title": "Sprouts kosambari",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5d.jpg",
+    "desc": "Healthy and easy sprouted green gram salad with grated carrots and pomegranates."
+  },
+  {
+    "id": 35,
+    "title": "Beetroot Palya",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5e.jpg",
+    "desc": "Beetroot Palya or poriyal is prepared using grated beetroot, grated coconut and very minimum spices."
+  },
+  {
+    "id": 36,
+    "title": "Avial",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5f.jpg",
+    "desc": "A traditional South Indian dish made with mixed vegetables, coconut, cumin seeds and green chillies."
+  },
+  {
+    "id": 37,
+    "title": "Mango Pachdi",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5g.jpg",
+    "desc": "A sweet and sour mango curry made with raw mangoes, jaggery and coconut."
+  },
+  {
+    "id": 38,
+    "title": "Masal Vade",
+    "category": "Lunch",
+    "allergens": ['Gluten'],
+    "img": "./images/item-5h.jpg",
+    "desc": "A spicy and tasty deep fried fritter made from chana dal and spices."
+  },
+  {
+    "id": 39,
+    "title": "Sandige / Vadaam",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5i.jpg",
+    "desc": "A sun dried fritter made from rice flour and spices. A perfect accompaniment to the rice and curries."
+  },
+  {
+    "id": 40,
+    "title": "Puliyogare",
+    "category": "Lunch",
+    "allergens": ['Nuts'],
+    "img": "./images/item-5j.jpg",
+    "desc": "A tangy and spicy rice dish made with tamarind, peanuts, curry leaves and spices."
+  },
+  {
+    "id": 41,
+    "title": "Pineapple rasam",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5k.jpg",
+    "desc": "A tangy and spicy rasam made with pineapple, tamarind, tomatoes, lentils and spices."
+  },
+  {
+    "id": 42,
+    "title": "Kumblekkaai / Sweet Pumpkin Saaru",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5l.jpg",
+    "desc": "A sweet and tangy curry made with ash gourd, jaggery, tamarind and spices."
+  },
+  {
+    "id": 43,
+    "title": "Palak Cucumber Mor Kootu",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5m.jpg",
+    "desc": "A unique South Indian curry made with spinach, cucumber, coconut and buttermilk."
+  },
+  {
+    "id": 44,
     "title": "Anna / Saadham",
     "category": "Lunch",
     "allergens": [],
     "img": "./images/item-2f.jpg",
     "desc": "Boiled rice. Smack this multiple rounds, with Pineapple rasam, Kumblekai Saaru, Palak Mor Kootu and curd."
   },
+  {
+    "id": 45,
+    "title": "Mor Milagai",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5n.jpg",
+    "desc": "Buttermilk soaked green chillies when sun dried become this spicy and tangy fritter. Banger of a pairing with Curd Rice."
+  },
+  {
+    "id": 46,
+    "title": "Cut mango pickle",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5o.jpg",
+    "desc": "A tangy and spicy pickle made with raw mangoes, mustard seeds, fenugreek seeds and spices. Another perfect accompaniment to Curd Rice."
+  },
+  {
+    "id": 47,
+    "title": "Puli inji",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5p.jpg",
+    "desc": "A sweet, sour and spicy ginger pickle made with tamarind, jaggery and spices."
+  },
+  {
+    "id": 48,
+    "title": "Nendhran chips",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-5q.jpg",
+    "desc": "A popular South Indian snack - fried raw plantains."
+  },
+  {
+    "id": 49,
+    "title": "Sweet Beda / Paan",
+    "category": "Lunch",
+    "allergens": [],
+    "img": "./images/item-2o.jpg",
+    "desc": "A popular Indian dessert made from a betel leaf wrapped around sweet ingredients"
+  },
+  {
+    "id:": 50,
+    "title": "Butterscotch Ice Cream",
+    "category": "Lunch",
+    "allergens": ["Milk"],
+    "img": "./images/item-5r.jpg",
+    "desc": "A classic dessert made with milk, sugar, cream and butterscotch essence. A perfect finisher to the grand lunch."
+  }
 ]
 
 export const categories = [
@@ -289,7 +449,7 @@ export const categories = [
   {
     "id": 5,
     "category": "Lunch",
-    "desc": "The final meal of the wedding. A grand lunch to wrap up the wedding celebrations. The final level boss of ela ootas / full meals as we coloquially call it. We hope you enjoyed all the food as much as we did curating it.",
+    "desc": "The final meal of the wedding. A grand lunch to wrap up the wedding celebrations. The final level boss of ela ootas / full meals as we coloquially call it. We hope you enjoyed all the food as much as we did curating it! :)",
     "date": "20th Jan",
     "timestamp_start": 1737336600000,
     "timestamp_end": 1737423000000,
