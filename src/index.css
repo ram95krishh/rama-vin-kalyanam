@@ -348,6 +348,7 @@ b {
   height: 100vh;
   background: url('../public/images/banner.jpg') no-repeat center center/cover;
   background-size: auto;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -361,6 +362,7 @@ b {
   .banner {
     background: url('../public/images/mobile_banner.jpg') no-repeat center center/cover;
     background-size: contain;
+    background-attachment: fixed;
   };
 }
 
