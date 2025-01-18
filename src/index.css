@@ -359,7 +359,8 @@ b {
 @media screen and (max-width: 768px) {
   .banner {
     background: url('../public/images/mobile_banner.jpg') no-repeat center center/cover;
-  }
+    background-size: contain;
+  };
 }
 
 .banner-content {
