@@ -3,7 +3,7 @@ import Menu from './Menu'
 import Categories from './Categories'
 import { menu, categories } from './data'
 
-const EVENT_MID_TIMESTAMP = 1737336600000 // JAN_20_0000_HRS // new Date('2025-01-20T07:00:00+05:30').getTime()
+const EVENT_MID_TIMESTAMP = 1737236600000 // JAN_20_0000_HRS // new Date('2025-01-20T07:00:00+05:30').getTime()
 
 function App() {
   const [allItems] = useState(menu)
@@ -36,14 +36,11 @@ function App() {
           >
             Explore Menu
           </button>
-          {new Date().getTime() > EVENT_MID_TIMESTAMP ? <button
-            onClick={() => {
-              document.getElementById('menu-section').scrollIntoView({ behavior: 'smooth' });
-            }}
+          {new Date().getTime() > EVENT_MID_TIMESTAMP ? <a href="https://www.youtube.com/live/lKEh58Mn_eQ?feature=shared"> <button
             className="scroll-button"
           >
             Live Stream
-          </button>: null}
+          </button></a>: null}
         </div>
       </div>
       {/* Menu Section */} 
