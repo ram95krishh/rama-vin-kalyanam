@@ -30,17 +30,13 @@ function App() {
         <div id="nav-buttons">
           <button
             onClick={() => {
-              document.getElementById('menu-section').scrollIntoView({ behavior: 'smooth' });
+              document.getElementById('menu section).scrollIntoView({ behavior: 'smooth' });
             }}
             className="scroll-button"
           >
             Explore Menu
           </button>
-          {new Date().getTime() > EVENT_MID_TIMESTAMP ? <a href="https://www.youtube.com/live/lKEh58Mn_eQ?feature=shared"> <button
-            className="scroll-button"
-          >
-            Live Stream
-          </button></a>: null}
+          {new Date().getTime() > EVENT_MID_TIMESTAMP ? <b><a href="https://www.youtube.com/live/lKEh58Mn_eQ?feature=shared">Live Stream</a></b>: null}
         </div>
       </div>
       {/* Menu Section */} 
